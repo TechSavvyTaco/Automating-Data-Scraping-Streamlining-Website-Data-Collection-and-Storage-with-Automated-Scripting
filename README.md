@@ -12,8 +12,8 @@ To write a script that automatically scrapes data from a website and stores it i
 5. Set up a local database using a library such as `sqlite3`.
 6. Create a table in the database to store the scraped data.
 7. Parse the scraped data and insert it into the local database table.
-\
-\
+
+
 
 Here's an example Python code snippet that you can modify for your specific use case:
 
@@ -29,8 +29,8 @@ print(soup.prettify())
 ```
 
 This Python code imports the `BeautifulSoup` object from the `bs4` library and the `requests` library. It then stores a URL in the `url` variable and sends a GET request to that URL using `requests.get()`. The response is converted to a `BeautifulSoup` object using the `html.parser` parser and stored in the `soup` variable. The `prettify()` method is used to format the HTML markup before printing it to the console. The code can be used to scrape data from any website with minimal modification.
-\
-\
+
+
 
 Here's another example Python code snippet that you can modify for your specific use case:
 
