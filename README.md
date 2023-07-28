@@ -34,7 +34,8 @@ This Python code imports the `BeautifulSoup` object from the `bs4` library and t
 
 Here's another example Python code snippet that you can modify for your specific use case:
 
-```import requests
+```python
+import requests
 from bs4 import BeautifulSoup
 import sqlite3
 
